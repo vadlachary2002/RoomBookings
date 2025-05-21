@@ -1,0 +1,65 @@
+.room-booking {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 12px;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.room-container {
+    display: flex;
+}
+
+.left-panel {
+    width: 80px;
+    height: auto;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.room-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.room-row {
+    display: flex;
+    gap: 8px;
+}
+
+.room-box {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.room-box.booked {
+    background-color: green;
+    color: white;
+}
+
+.room-box.random-booked {
+    background-color: red;
+    color: white;
+}
+.error{
+    color: red;
+}
